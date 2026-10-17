@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventriX - Sign In / Sign Up</title>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>EventriX</h1>
+            <p>Your events, all in one place.</p>
+        </header>
+
+        <hr>
+
+        <main>
+            <h2>Welcome</h2>
+            <p>Choose an option below to continue.</p>
+
+            <details name="account-form">
+                <summary><strong>Sign In</strong></summary>
+                <h3>Sign in to your account</h3>
+                <form>
+                    <p>
+                        <label for="signin-email">Email address:</label><br>
+                        <input type="email" id="signin-email" name="signin-email"
+                               autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="signin-password">Password:</label><br>
+                        <input type="password" id="signin-password" name="signin-password"
+                               autocomplete="current-password" required>
+                    </p>
+                    <p><button type="button">Sign In</button></p>
+                </form>
+            </details>
+
+            <br>
+
+            <details name="account-form">
+                <summary><strong>Sign Up</strong></summary>
+                <h3>Create an EventriX account</h3>
+                <form>
+                    <p>
+                        <label for="signup-name">Full name:</label><br>
+                        <input type="text" id="signup-name" name="signup-name"
+                               autocomplete="name" required>
+                    </p>
+                    <p>
+                        <label for="signup-email">Email address:</label><br>
+                        <input type="email" id="signup-email" name="signup-email"
+                               autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="signup-password">Create password (at least 8 characters):</label><br>
+                        <input type="password" id="signup-password" name="signup-password"
+                               minlength="8" autocomplete="new-password" required>
+                    </p>
+                    <p>
+                        <label for="confirm-password">Confirm password:</label><br>
+                        <input type="password" id="confirm-password" name="confirm-password"
+                               minlength="8" autocomplete="new-password" required>
+                    </p>
+                    <p><button type="button">Create Account</button></p>
+                </form>
+            </details>
+        </main>
+
+        <hr>
+
+        <footer>
+            <p>&copy; 2026 EventriX.</p>
+        </footer>
+    </center>
+</body>
+</html>
