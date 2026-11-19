@@ -1,4 +1,4 @@
-# EventriX
+# <img src="assets/images/eventrix-logo.png" width="40" align="middle" alt=""> EventriX
 
 EventriX is a **Web Technology course project** for finding, hosting, and booking events in Bangladesh. Event listings show the date, venue, ticket price in taka (৳), and available tickets in one place.
 
@@ -72,5 +72,12 @@ Browse event categories and see upcoming events on the landing page.
 These accounts are for local testing. Replace the default passwords and remove the public demo-login hints before deploying the project.
 
 ## Credits
+
+### Project contributors
+
+- [shadowf97](https://github.com/shadowf97)
+- [M Alif Hasan](https://github.com/alif00007)
+
+### Assets
 
 Event cover photos are from Unsplash. The interface uses Hugeicons and the Manrope and Playfair Display fonts. See [`reference.txt`](reference.txt) for source links and logo credits.
