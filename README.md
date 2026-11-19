@@ -1,6 +1,6 @@
 # <img src="assets/images/eventrix-logo.png" width="40" align="middle" alt=""> EventriX
 
-EventriX is a **Web Technology course project** for finding, hosting, and booking events in Bangladesh. Event listings show the date, venue, ticket price in taka (৳), and available tickets in one place.
+EventriX is a **Web Technology - Course Project** for finding, hosting, and booking events in Bangladesh. Event listings show the date, venue, ticket price in taka (৳), and available tickets in one place.
 
 ## Why we built it
 
@@ -48,7 +48,7 @@ Browse event categories and see upcoming events on the landing page.
 ## Technology
 
 - **HTML and CSS** structure and style the pages with a shared stylesheet.
-- **Vanilla JavaScript** handles browser interactions such as switching between sign-in and sign-up.
+- **JavaScript** handles browser interactions such as switching between sign-in and sign-up.
 - **PHP** handles authentication, permissions, and booking logic. It uses PDO to connect to MySQL.
 - **MySQL or MariaDB** stores accounts, events, bookings, and payment records.
 - **Apache** uses [`.htaccess`](.htaccess) to route public `.html` URLs to the corresponding PHP source files.
