@@ -1,0 +1,29 @@
+# Project Proposal — EventriX
+
+Course: Web Technology (AA)
+
+Project overview
+
+- EventriX is a web application for finding, hosting, and booking events in Bangladesh.
+- Users can check event dates, venues, ticket prices in taka (৳), and ticket availability in one place.
+
+Users and their roles
+
+- Visitors can browse approved events and read event details before signing up.
+- Attendees can create an account, book tickets, and view their booking history and reference numbers.
+- Hosts can submit and edit events, set ticket prices and capacity, and view attendee bookings.
+- Administrators can approve or reject event submissions and manage user accounts, bookings, and payment records.
+
+ Technology stack
+
+- HTML and CSS build and style the pages, forms, and dashboards.
+- JavaScript handles browser interactions such as switching between sign-in and sign-up.
+- PHP handles login, user permissions, event submissions, and bookings.
+- MySQL stores accounts, events, bookings, and payment records.
+- XAMPP provides the local environment for running and demonstrating the project.
+
+Demonstration and expected outcome
+
+- A host submits an event, an administrator approves it, and an attendee books a ticket.
+- The demonstration will check that only approved events appear publicly, users can access the pages for their role, and confirmed bookings reduce ticket availability.
+- The final deliverable is a working course prototype with a demo payment flow.

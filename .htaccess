@@ -1,0 +1,9 @@
+DirectoryIndex index.html index.php
+
+RewriteEngine On
+
+# Keep the request method and query string when loading a PHP page.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} ^(.+)\.html$
+RewriteCond %1.php -f
+RewriteRule ^((?:(?:admin|host|user)/)?[a-z0-9-]+)\.html$ $1.php [END]

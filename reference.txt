@@ -1,0 +1,28 @@
+EventriX - Sources in Use
+
+1. Hugeicons Icon Font
+   URL: https://use.hugeicons.com/font/icons.css
+   Used for: navigation and landing-page icons.
+   Docs: https://hugeicons.com/docs/icons-for-web/quick-start
+
+2. Google Fonts - Manrope and Playfair Display
+   URL: https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap
+   Used for: body text, interface text, brand name, and headings.
+   Source: https://fonts.google.com/
+
+3. EventriX logo
+   File: assets/images/eventrix-logo.png
+   Source: Generated with OpenAI image generation for this project.
+
+4. Other visuals
+   Background and accent colors are set in assets/css/site.css.
+   No external background images are used.
+
+5. Event cover photos
+   Source: Unsplash (free stock photography).
+   License: https://unsplash.com/license
+   Tech: https://images.unsplash.com/photo-1540575467063-178a50c2df87
+   Music: https://images.unsplash.com/photo-1501386761578-eac5c94b800a
+   Business: https://images.unsplash.com/photo-1521737711867-e3b97375f902
+   Sports: https://images.unsplash.com/photo-1552674605-db6ffd4facb5
+   Workshop: https://images.unsplash.com/photo-1452780212940-6f5c0d14d848
